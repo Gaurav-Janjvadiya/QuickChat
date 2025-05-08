@@ -1,0 +1,23 @@
+{
+  "name": "quick-chat",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Gaurav-Janjvadiya/QuickChat#readme",
+  "bugs": {
+    "url": "https://github.com/Gaurav-Janjvadiya/QuickChat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav-Janjvadiya/QuickChat.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev":"concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
